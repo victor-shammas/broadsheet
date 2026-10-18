@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Broadsheet</title>
+<meta name="description" content="Broadsheet privacy policy: no accounts, no servers, no analytics. Pages come straight from their sites to your Mac, and your sign-ins stay in the app.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="30" height="30">Broadsheet</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./" class="hide-sm">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main class="doc">
+  <div class="wrap narrow">
+    <h1>Privacy Policy</h1>
+    <p class="meta-line">Effective date: October 18, 2026</p>
+
+    <div class="tldr">
+      <strong>The short version</strong>
+      <ul>
+        <li>Broadsheet has no accounts, no servers, no analytics and no ads.</li>
+        <li>It fetches the pages you add straight from their sites, and makes the book on your Mac.</li>
+        <li>Your sign-ins to sites stay inside the app, on your Mac.</li>
+        <li>The optional Chrome extension sends pages only to Broadsheet on the same Mac.</li>
+        <li>I (the developer) never receive any of your data.</li>
+      </ul>
+    </div>
+
+    <p>This policy explains what the Broadsheet app for macOS ("Broadsheet", "the app") and its optional Chrome extension, Broadsheet for Chrome ("the extension"), read, what they store, and what they never do. Both are made by Victor Shammas, an independent developer ("I", "me").</p>
+
+    <h2>1. What Broadsheet reads</h2>
+    <p>Broadsheet runs in Apple's App Sandbox. It reads only what you give it:</p>
+    <table class="stack">
+      <thead><tr><th>Source</th><th>What is read</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Links you add</td>
+            <td data-label="Read">The links you paste, drop, type or import, and the text around them while finding the links</td>
+            <td data-label="Why">To know which pages to read. The clipboard is read only when you paste.</td></tr>
+        <tr><td>Files you import or open</td>
+            <td data-label="Read">Bookmark exports, link files, feeds lists and <code>.broadsheet</code> packets you choose</td>
+            <td data-label="Why">To find their links, or to open the packet.</td></tr>
+        <tr><td>The pages themselves</td>
+            <td data-label="Read">Each linked page and its pictures, fetched from its own site</td>
+            <td data-label="Why">To make the book. Only the article's text, pictures and details (title, author, date) are kept.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>2. What Broadsheet stores on your Mac</h2>
+    <ul>
+      <li><strong>Your packet:</strong> the links you've added and the articles as read, so it's there when you reopen the app; the last 20 packets you've made books from, for File › Open Recent; and the feeds you've saved.</li>
+      <li><strong>Pictures:</strong> a cache of the articles' pictures, so a book doesn't download them twice.</li>
+      <li><strong>Sign-ins and site checks:</strong> when you sign in to a site in Broadsheet's sign-in window, or a site's bot check is passed, the site's cookies are kept in Broadsheet's own web storage, as a browser keeps them, so the site's other articles can be read. Broadsheet never sees or stores your passwords: you type them into the site's own page.</li>
+      <li><strong>The connection code</strong> for Broadsheet for Chrome, and your settings.</li>
+    </ul>
+    <p>All of this is kept in Broadsheet's sandbox container on your Mac. None of it is sent to me. Packets you save as files and books you make are saved where you choose.</p>
+
+    <h2>3. Network use</h2>
+    <ul>
+      <li><strong>The sites you link to.</strong> Broadsheet fetches each page, and its pictures, directly from its site, as a browser would. Those sites see an ordinary visit: your IP address, your preferred languages, and the cookies of any sign-in you made in Broadsheet. When a site turns a plain request away, Broadsheet loads the page in a hidden browser view, in the same way.</li>
+      <li><strong>Feeds</strong> you look up are fetched from their sites.</li>
+      <li><strong>A local connection for the Chrome extension.</strong> Broadsheet listens on your Mac's own loopback address (127.0.0.1), which can't be reached from other computers. It answers only the extension, and only when the extension proves it has the connection code. It stops when you quit Broadsheet.</li>
+    </ul>
+    <p>Broadsheet makes no other connections: no analytics, no update checks, no servers of mine.</p>
+
+    <h2>4. Broadsheet for Chrome</h2>
+    <p>The extension is optional and free. It reads a page in Chrome only when you click its button or choose Add to Broadsheet, or when Broadsheet asks for an article it couldn't read itself, and then only on sites you have allowed it to open. It sends that page to Broadsheet on the same Mac, and nowhere else. It stores the connection code and one preference in Chrome's storage for the extension. It doesn't read your Chrome history, passwords or cookies.</p>
+
+    <h2>5. What Broadsheet never does</h2>
+    <ul>
+      <li>No accounts or sign-up.</li>
+      <li>No analytics, telemetry, crash-reporting services, advertising or tracking SDKs.</li>
+      <li>No servers run by me. Nothing is uploaded to me or to any third party on my behalf.</li>
+      <li>No selling or sharing of data, because I don't have any of your data.</li>
+      <li>No tracking across apps or websites.</li>
+      <li>No getting around paywalls: Broadsheet reads only what your own sign-ins allow.</li>
+    </ul>
+
+    <h2>6. Apple</h2>
+    <p>You buy and download Broadsheet through the Mac App Store. Apple processes your purchase under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Apple may share anonymous sales and, if you opt in to sharing with developers, crash statistics with me. These never include your links, articles or books.</p>
+
+    <h2>7. Removing your data</h2>
+    <ul>
+      <li>To empty the list of recent packets, use File › Open Recent › <em>Clear Menu</em>.</li>
+      <li>To disconnect Chrome, choose <em>New Code</em> in Broadsheet › Settings › Chrome, or remove the extension in Chrome.</li>
+      <li>To remove everything, sign-ins included, quit Broadsheet, delete it from Applications, then delete its container folder <code>~/Library/Containers/com.victorshammas.broadsheet</code>. macOS keeps this folder when you delete an app.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>Broadsheet collects no personal information from anyone, including children. It opens whatever web pages you link to, so its App Store age rating reflects unrestricted web access.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. If a change ever adds data collection, it will be announced in the app's release notes before it takes effect.</p>
+
+    <h2>10. Contact</h2>
+    <p>Questions about privacy? Email <a href="mailto:contact+broadsheet@victorshammas.com">contact+broadsheet@victorshammas.com</a>.</p>
+  </div>
+</main>
+
+<section class="app-bar" aria-label="Apps by Victor Shammas">
+  <div class="wrap">
+    <div class="app-bar-head">
+      <p class="app-bar-title"><a href="https://victorshammas.com/apps/">Small, private apps by Victor Shammas</a></p>
+      <p class="app-bar-coffee">Enjoying one of these apps? <a href="https://buymeacoffee.com/victorshammas">Buy me a coffee</a>.</p>
+    </div>
+    <div class="app-tiles">
+      <a class="app-tile" href="https://victorshammas.com/plainview/"><img src="https://victorshammas.com/plainview/icon.png" alt="" width="44" height="44"><span><strong>Plainview</strong><small>A Markdown reader for the Mac</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/gaugeline/"><img src="https://victorshammas.com/gaugeline/icon.png" alt="" width="44" height="44"><span><strong>Gaugeline</strong><small>AI usage limits in your menu bar</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/quoth/"><img src="https://victorshammas.com/quoth/icon.png" alt="" width="44" height="44"><span><strong>Quoth</strong><small>Local voice transcription</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/staple/"><img src="https://victorshammas.com/staple/icon.png" alt="" width="44" height="44"><span><strong>Staple</strong><small>Substack, stapled together</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/claude-usage-meter/"><img src="https://victorshammas.com/claude-usage-meter/icon.png" alt="" width="44" height="44"><span><strong>Claude Usage Meter</strong><small>Claude limits, free and open source</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/lectern/"><img src="https://victorshammas.com/lectern/icon.png" alt="" width="44" height="44"><span><strong>Lectern</strong><small>A presenter view for HTML slides</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/commonplace/"><img src="https://victorshammas.com/commonplace/icon.png" alt="" width="44" height="44"><span><strong>Commonplace</strong><small>Save links to Apple Notes</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/verbatim/"><img src="https://victorshammas.com/verbatim/icon.png" alt="" width="44" height="44"><span><strong>Verbatim</strong><small>Check quotations against sources</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/plainread/"><img src="https://victorshammas.com/plainread/icon.png" alt="" width="44" height="44"><span><strong>Plainread</strong><small>An EPUB reader for the Mac</small></span></a>
+      <a class="app-tile" href="https://victorshammas.com/ibid/"><img src="https://victorshammas.com/ibid/icon.png" alt="" width="44" height="44"><span><strong>Ibid</strong><small>Check citations against the bibliography</small></span></a>
+      <a class="app-tile current" aria-current="page" href="https://victorshammas.com/broadsheet/"><img src="https://victorshammas.com/broadsheet/icon.png" alt="" width="44" height="44"><span><strong>Broadsheet</strong><small>Web links, bound into a book</small><em>You’re here</em></span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Footer"><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="mailto:contact+broadsheet@victorshammas.com">Contact</a></nav>
+    <p>Broadsheet is an independent app. Mac, Mac App Store, Apple Books, Apple Notes, Safari and Preview are trademarks of Apple Inc. Chrome is a trademark of Google LLC.</p>
+    <p>© 2026 Victor Shammas</p>
+  </div>
+</footer>
+</body>
+</html>
