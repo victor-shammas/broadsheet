@@ -30,6 +30,6 @@ update the app bar on every page of every app site, and the cards at https://vic
 
 - Replace the "Coming soon" span in `index.html` with the App Store link in the comment above it
   (`https://apps.apple.com/app/idAPP_ID?mt=12`, with the numeric Apple ID from App Store Connect).
-  The price is $4.99.
+  Free to download: three packets free, then a $4.99 in-app unlock.
 - Add the Chrome Web Store link for Broadsheet for Chrome to the support page's setup steps.
 - On https://victorshammas.com/apps/, turn Broadsheet's "Coming soon" pill into a Mac App Store link.
