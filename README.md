@@ -28,6 +28,8 @@ update the app bar on every page of every app site, and the cards at https://vic
 
 ## At launch
 
+Done 2026-11-12: live on the Mac App Store; the hero button and the /apps/ card link the listing.
+
 - Replace the "Coming soon" span in `index.html` with the App Store link in the comment above it
   (`https://apps.apple.com/app/idAPP_ID?mt=12`, with the numeric Apple ID from App Store Connect).
   Free to download: three packets free, then a $4.99 in-app unlock.
